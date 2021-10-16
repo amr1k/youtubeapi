@@ -3,11 +3,19 @@ The purpose of this code snippet is to provide an empty shell to demonstrate wor
 
 
 
+
    ┌─────────────────────┐                    ┌─────────────────────┐                    ┌─────────────────────┐
+   │                     │                    │                     │                    │                     │
    │                     │                    │                     │                    │                     │
    │     Youtube API     │                    │ Google Cloud Secrets│                    │       Pub/Sub       │
    │                     │                    │       Manager       │                    │                     │
+   │                     │                    │                     │                    │                     │
    └─────────▲───────────┘                    └─────────▲───────────┘                    └──────────▲──────────┘
+             │                                          │                                           │
+             │                                          │                                           │
+             │                                          │                                           │
+             │                                          │                                           │
+             │                                          │                                           │
              │                                          │                                           │
              │                                          │                                           │
              │                                          │                                           │
@@ -15,7 +23,9 @@ The purpose of this code snippet is to provide an empty shell to demonstrate wor
              │                                          │                                           │
              │                               ┌──────────▼──────────┐                                │
              │                               │                     │                                │
+             │                               │                     │                                │
              └───────────────────────────────►    Python Script    ├────────────────────────────────┘
+                                             │                     │
                                              │                     │
                                              └─────────────────────┘
 
