@@ -13,4 +13,4 @@ steps:
   - builds
   - submit
   - --pack
-  - image=gcr.io/$PROJECT_ID/apidatapipeline:$COMMIT_SHA
+  - image=gcr.io/$PROJECT_ID/youtubeapi:$COMMIT_SHA
