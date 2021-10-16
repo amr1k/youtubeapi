@@ -1,35 +1,25 @@
 ## Youtube API Shell Code
 The purpose of this code snippet is to provide an empty shell to demonstrate working with oAuth with the youtube api.
 
-
-
-
-   ┌─────────────────────┐                    ┌─────────────────────┐                    ┌─────────────────────┐
-   │                     │                    │                     │                    │                     │
-   │                     │                    │                     │                    │                     │
-   │     Youtube API     │                    │ Google Cloud Secrets│                    │       Pub/Sub       │
-   │                     │                    │       Manager       │                    │                     │
-   │                     │                    │                     │                    │                     │
-   └─────────▲───────────┘                    └─────────▲───────────┘                    └──────────▲──────────┘
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                                          │                                           │
-             │                               ┌──────────▼──────────┐                                │
-             │                               │                     │                                │
-             │                               │                     │                                │
-             └───────────────────────────────►    Python Script    ├────────────────────────────────┘
-                                             │                     │
-                                             │                     │
-                                             └─────────────────────┘
-
-
+```
+┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────────┐
+│                     │  │                     │  │                     │
+│                     │  │                     │  │                     │
+│     Youtube API     │  │ Google Cloud Secrets│  │       Pub/Sub       │
+│                     │  │       Manager       │  │                     │
+│                     │  │                     │  │                     │
+└─────────▲───────────┘  └─────────▲───────────┘  └──────────▲──────────┘
+          │                        │                         │
+          │                        │                         │
+          │                        │                         │
+          │             ┌──────────▼──────────┐              │
+          │             │                     │              │
+          │             │                     │              │
+          └─────────────►    Python Script    ├──────────────┘
+                        │                     │
+                        │                     │
+                        └─────────────────────┘
+```
 
 The script interacts with the Google Cloud Secret Manager to save and retreive api keys.
 
