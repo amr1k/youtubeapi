@@ -1,7 +1,7 @@
 ## Youtube API Shell Code
 The purpose of this code snippet is to provide an empty shell to demonstrate working with oAuth with the youtube api.
 
-
+```
 ┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────────┐
 │                     │  │                     │  │                     │
 │                     │  │                     │  │                     │
@@ -19,7 +19,7 @@ The purpose of this code snippet is to provide an empty shell to demonstrate wor
                         │                     │
                         │                     │
                         └─────────────────────┘
-
+```
 
 The script interacts with the Google Cloud Secret Manager to save and retreive api keys.
 
