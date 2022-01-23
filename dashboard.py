@@ -52,7 +52,7 @@ if __name__ == '__main__':
     clientSecret = get_authenticated_service(rawClientSecret)
     print('saving client secret to secret manager')
     resp = Secrets.add_secret_version(projectId, youtubeCredentialsName, clientSecret.to_json())
-    rawYoutubeCreds = clientSecret
+    rawYoutubeCreds = clientSecret.to_json()
 
   # Convert the content of the secret to Google oauth credentials object
   print('convert youtube credentials from secrets manager to Credentials object')
